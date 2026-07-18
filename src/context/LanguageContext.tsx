@@ -18,14 +18,14 @@ const translations: Record<Language, TranslationDictionary> = {
   ta: {
     nav: { home: "முகப்பு", about: "எங்களை பற்றி", services: "சேவைகள்", contact: "தொடர்புக்கு" },
     hero: {
-      title: "அக்ஷயம் கொங்கு <br /> திருமணத் தகவல் மையம்",
+      title: "அக்‌ஷயம் கொங்கு <br /> திருமணத் தகவல் மையம்",
       subtitle: "\"உங்கள் இல்லத்தின் இனிய உறவுக்கு நம்பிக்கையான துணை\"",
       description: "பல ஆண்டுகளாக நம்பிக்கையுடன் செயல்பட்டு வரும் திருமணத் தகவல் மையம். குடும்ப மதிப்புகளையும், தனியுரிமையையும் முன்னிலைப்படுத்தி சிறந்த வாழ்க்கைத்துணையை இணைத்து வருகிறோம்.",
       cta: "இப்போது அழைக்கவும்",
     },
     about: {
       title: "எங்களை பற்றி",
-      p1: "<strong class=\"text-[#066337]\">அக்ஷயம் கொங்கு திருமணத் தகவல் மையம்</strong> என்பது நம்பகமான திருமணத் தகவல் சேவையாகும். மணமகன் மற்றும் மணமகளின் விருப்பங்களுக்கு ஏற்ப பொருத்தமான வாழ்க்கைத்துணையை அறிமுகப்படுத்துவது எங்கள் நோக்கம்.",
+      p1: "<strong class=\"text-[#066337]\">அக்‌ஷயம் கொங்கு திருமணத் தகவல் மையம்</strong> என்பது நம்பகமான திருமணத் தகவல் சேவையாகும். மணமகன் மற்றும் மணமகளின் விருப்பங்களுக்கு ஏற்ப பொருத்தமான வாழ்க்கைத்துணையை அறிமுகப்படுத்துவது எங்கள் நோக்கம்.",
       p2: "நேர்மை, நம்பிக்கை, தனியுரிமை மற்றும் குடும்ப மதிப்புகளை அடிப்படையாகக் கொண்டு பல குடும்பங்களுக்கு வெற்றிகரமான திருமணங்களை உருவாக்கி வருகிறோம்.",
       features: ["நம்பகமான மற்றும் பாதுகாப்பான சேவை", "பொருத்தமான வரன்கள்", "முழுமையான வழிகாட்டுதல்", "குறைந்த கட்டணம்"],
     },
@@ -43,7 +43,6 @@ const translations: Record<Language, TranslationDictionary> = {
         { title: "நம்பகமான சேவை", description: "உங்கள் நம்பிக்கையை மதிக்கும் உன்னதமான சேவை." },
         { title: "தனியுரிமை பாதுகாப்பு", description: "உங்கள் தகவல்கள் அனைத்தும் 100% பாதுகாப்பாக கையாளப்படும்." },
         { title: "அனுபவமிக்க வழிகாட்டுதல்", description: "சரியான துணையை தேர்ந்தெடுக்க சிறந்த ஆலோசனை." },
-        { title: "அனைத்து சமூகத்தினருக்கும்", description: "அனைத்து சமூகத்தினருக்கும் ஏற்ற வரன்கள்." },
         { title: "தனிப்பட்ட ஆலோசனை", description: "உங்கள் தேவைகளை புரிந்து கொண்டு தனிப்பட்ட கவனம்." },
         { title: "குடும்ப மதிப்புகளுக்கு முன்னுரிமை", description: "பாரம்பரியம் மற்றும் குடும்ப மதிப்புகளுக்கு சிறப்பு முக்கியத்துவம்." }
       ]
@@ -52,11 +51,11 @@ const translations: Record<Language, TranslationDictionary> = {
       title: "தொடர்புக்கு",
       phone: "தொலைபேசி எண்கள்",
       addressTitle: "முகவரி",
-      address: "மலைக்கோயில்,<br />மங்கலம் ரோடு,<br />திருப்பூர்",
+      address: "மலைக்கோயில்,<br />மங்கலம் ரோடு,<br />திருப்பூர் - 641 663",
       cta: "அழைக்க",
     },
     footer: {
-      title: "அக்ஷயம் கொங்கு திருமணத் தகவல் மையம்",
+      title: "அக்‌ஷயம் கொங்கு திருமணத் தகவல் மையம்",
       subtitle: "\"நம்பிக்கையுடன் உறவுகளை இணைக்கும் உங்கள் குடும்பத்தின் முதல் தேர்வு.\"",
       rights: "அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.",
     },
@@ -89,7 +88,6 @@ const translations: Record<Language, TranslationDictionary> = {
         { title: "Trusted Service", description: "A noble service that respects your trust." },
         { title: "Privacy Protection", description: "All your information is handled 100% securely." },
         { title: "Experienced Guidance", description: "Best advice to choose the right partner." },
-        { title: "For All Communities", description: "Suitable profiles for all communities." },
         { title: "Personalized Advice", description: "Personal attention understanding your needs." },
         { title: "Priority to Family Values", description: "Special importance to tradition and family values." }
       ]
@@ -98,7 +96,7 @@ const translations: Record<Language, TranslationDictionary> = {
       title: "Contact",
       phone: "Phone Numbers",
       addressTitle: "Address",
-      address: "Malaikovil,<br />Mangalam Road,<br />Tiruppur",
+      address: "Malaikovil,<br />Mangalam Road,<br />Tiruppur - 641 663",
       cta: "Call",
     },
     footer: {

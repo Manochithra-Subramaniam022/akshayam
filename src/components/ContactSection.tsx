@@ -78,15 +78,20 @@ export default function ContactSection() {
               </div>
             </div>
 
-            <div className="p-6 bg-gray-50 rounded-xl h-[calc(100%-80px)] flex flex-col justify-center border border-gray-100">
+            <div className="p-6 bg-gray-50 rounded-xl h-[calc(100%-80px)] flex flex-col items-center justify-center border border-gray-100">
+              <img 
+                src="/images/malaikovil.jpg" 
+                alt="Malaikovil Temple" 
+                className="w-full max-w-[280px] h-auto rounded-lg mb-6 shadow-sm object-cover border-4 border-white" 
+              />
               <address 
                 className="not-italic text-lg text-gray-700 leading-relaxed text-center"
                 dangerouslySetInnerHTML={{ __html: t.contact.address }}
               />
               
-              <div className="mt-8 text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[#FFF8F2] border-2 border-[#D4AF37]/30 text-[#066337]">
-                   <MapPin size={28} />
+              <div className="mt-6 text-center">
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#FFF8F2] border-2 border-[#D4AF37]/30 text-[#066337]">
+                   <MapPin size={24} />
                 </div>
               </div>
             </div>

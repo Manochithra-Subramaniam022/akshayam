@@ -37,7 +37,7 @@ export default function Navbar() {
           <div className="relative w-28 h-10 md:w-32 md:h-12 flex items-center justify-center">
             <img 
               src="/images/logo.png" 
-              alt="அக்ஷயம் லோகோ" 
+              alt="அக்‌ஷயம் லோகோ" 
               className="w-full h-full object-contain drop-shadow-sm"
               onError={(e) => {
                 e.currentTarget.style.display = 'none';
@@ -45,7 +45,7 @@ export default function Navbar() {
               }}
             />
             <span className={`hidden text-2xl font-bold text-[#066337]`}>
-              அக்ஷயம்
+              அக்‌ஷயம்
             </span>
           </div>
         </a>
