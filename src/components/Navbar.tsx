@@ -32,7 +32,7 @@ export default function Navbar() {
       }`}
     >
       <div className="container mx-auto px-6 lg:px-12 flex justify-between items-center">
-        <a href="#home" className="flex items-center">
+        <a href="#home" className="flex flex-col items-center justify-center">
           {/* Logo */}
           <div className="relative w-28 h-10 md:w-32 md:h-12 flex items-center justify-center">
             <img 
@@ -48,6 +48,9 @@ export default function Navbar() {
               அக்‌ஷயம்
             </span>
           </div>
+          <span className="text-[10px] md:text-[11px] text-[#066337] font-semibold tracking-wide text-center mt-[-4px]">
+            ஜாதகம் முதல் பந்தி வரை
+          </span>
         </a>
 
         {/* Desktop Nav */}

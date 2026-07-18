@@ -26,7 +26,7 @@ const translations: Record<Language, TranslationDictionary> = {
     about: {
       title: "எங்களை பற்றி",
       p1: "<strong class=\"text-[#066337]\">அக்‌ஷயம் கொங்கு திருமணத் தகவல் மையம்</strong> என்பது நம்பகமான திருமணத் தகவல் சேவையாகும். மணமகன் மற்றும் மணமகளின் விருப்பங்களுக்கு ஏற்ப பொருத்தமான வாழ்க்கைத்துணையை அறிமுகப்படுத்துவது எங்கள் நோக்கம்.",
-      p2: "நேர்மை, நம்பிக்கை, தனியுரிமை மற்றும் குடும்ப மதிப்புகளை அடிப்படையாகக் கொண்டு பல குடும்பங்களுக்கு வெற்றிகரமான திருமணங்களை உருவாக்கி வருகிறோம்.",
+      p2: "கடந்த 10 ஆண்டுகளாக திருமணத் தகவல் சேவையில் ஈடுபட்டு, எங்கள் பகுதியில் 200 க்கும் மேற்பட்ட திருமணங்களை வெற்றிகரமாக நடத்தி வைத்துள்ளோம். நேர்மை, நம்பிக்கை, தனியுரிமை மற்றும் குடும்ப மதிப்புகளை அடிப்படையாகக் கொண்டு பல குடும்பங்களுக்கு வெற்றிகரமான திருமணங்களை உருவாக்கி வருகிறோம்.",
       features: ["நம்பகமான மற்றும் பாதுகாப்பான சேவை", "பொருத்தமான வரன்கள்", "முழுமையான வழிகாட்டுதல்", "குறைந்த கட்டணம்"],
     },
     services: {
@@ -71,7 +71,7 @@ const translations: Record<Language, TranslationDictionary> = {
     about: {
       title: "About Us",
       p1: "<strong class=\"text-[#066337]\">Akshayam Kongu Matrimony</strong> is a trusted matchmaking service. Our goal is to introduce the right life partner according to the preferences of the bride and groom.",
-      p2: "Based on honesty, trust, privacy, and family values, we have created successful marriages for many families.",
+      p2: "For the past 10 years, we have been providing matrimony services and have successfully arranged over 200+ marriages across our region. Based on honesty, trust, privacy, and family values, we have created successful marriages for many families.",
       features: ["Trusted & Secure Service", "Matching Profiles", "Complete Guidance", "Affordable Fees"],
     },
     services: {
