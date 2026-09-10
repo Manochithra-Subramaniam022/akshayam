@@ -18,14 +18,14 @@ const translations: Record<Language, TranslationDictionary> = {
   ta: {
     nav: { home: "முகப்பு", about: "எங்களை பற்றி", services: "சேவைகள்", contact: "தொடர்புக்கு" },
     hero: {
-      title: "அக்‌ஷயம் கொங்கு <br /> திருமணத் தகவல் மையம்",
+      title: "அக்‌ஷயம் <br /> திருமணத் தகவல் மையம்",
       subtitle: "\"உங்கள் இல்லத்தின் இனிய உறவுக்கு நம்பிக்கையான துணை\"",
       description: "பல ஆண்டுகளாக நம்பிக்கையுடன் செயல்பட்டு வரும் திருமணத் தகவல் மையம். குடும்ப மதிப்புகளையும், தனியுரிமையையும் முன்னிலைப்படுத்தி சிறந்த வாழ்க்கைத்துணையை இணைத்து வருகிறோம்.",
       cta: "இப்போது அழைக்கவும்",
     },
     about: {
       title: "எங்களை பற்றி",
-      p1: "<strong class=\"text-[#066337]\">அக்‌ஷயம் கொங்கு திருமணத் தகவல் மையம்</strong> என்பது நம்பகமான திருமணத் தகவல் சேவையாகும். மணமகன் மற்றும் மணமகளின் விருப்பங்களுக்கு ஏற்ப பொருத்தமான வாழ்க்கைத்துணையை அறிமுகப்படுத்துவது எங்கள் நோக்கம்.",
+      p1: "<strong class=\"text-[#066337]\">அக்‌ஷயம் திருமணத் தகவல் மையம்</strong> என்பது நம்பகமான திருமணத் தகவல் சேவையாகும். மணமகன் மற்றும் மணமகளின் விருப்பங்களுக்கு ஏற்ப பொருத்தமான வாழ்க்கைத்துணையை அறிமுகப்படுத்துவது எங்கள் நோக்கம்.",
       p2: "கடந்த 10 ஆண்டுகளாக திருமணத் தகவல் சேவையில் ஈடுபட்டு, எங்கள் பகுதியில் 200 க்கும் மேற்பட்ட திருமணங்களை வெற்றிகரமாக நடத்தி வைத்துள்ளோம். நேர்மை, நம்பிக்கை, தனியுரிமை மற்றும் குடும்ப மதிப்புகளை அடிப்படையாகக் கொண்டு பல குடும்பங்களுக்கு வெற்றிகரமான திருமணங்களை உருவாக்கி வருகிறோம்.",
       features: ["நம்பகமான மற்றும் பாதுகாப்பான சேவை", "பொருத்தமான வரன்கள்", "முழுமையான வழிகாட்டுதல்", "குறைந்த கட்டணம்"],
     },
@@ -55,7 +55,7 @@ const translations: Record<Language, TranslationDictionary> = {
       cta: "அழைக்க",
     },
     footer: {
-      title: "அக்‌ஷயம் கொங்கு திருமணத் தகவல் மையம்",
+      title: "அக்‌ஷயம் திருமணத் தகவல் மையம்",
       subtitle: "\"நம்பிக்கையுடன் உறவுகளை இணைக்கும் உங்கள் குடும்பத்தின் முதல் தேர்வு.\"",
       rights: "அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.",
     },
@@ -63,14 +63,14 @@ const translations: Record<Language, TranslationDictionary> = {
   en: {
     nav: { home: "Home", about: "About Us", services: "Services", contact: "Contact" },
     hero: {
-      title: "Akshayam Kongu <br /> Matrimony",
+      title: "Akshayam <br /> Matrimony",
       subtitle: "\"A trusted partner for your family's beautiful relationships\"",
       description: "A matrimony service operating with trust for many years. We bring together the best life partners by prioritizing family values and privacy.",
       cta: "Call Now",
     },
     about: {
       title: "About Us",
-      p1: "<strong class=\"text-[#066337]\">Akshayam Kongu Matrimony</strong> is a trusted matchmaking service. Our goal is to introduce the right life partner according to the preferences of the bride and groom.",
+      p1: "<strong class=\"text-[#066337]\">Akshayam Matrimony</strong> is a trusted matchmaking service. Our goal is to introduce the right life partner according to the preferences of the bride and groom.",
       p2: "For the past 10 years, we have been providing matrimony services and have successfully arranged over 200+ marriages across our region. Based on honesty, trust, privacy, and family values, we have created successful marriages for many families.",
       features: ["Trusted & Secure Service", "Matching Profiles", "Complete Guidance", "Affordable Fees"],
     },
@@ -100,7 +100,7 @@ const translations: Record<Language, TranslationDictionary> = {
       cta: "Call",
     },
     footer: {
-      title: "Akshayam Kongu Matrimony",
+      title: "Akshayam Matrimony",
       subtitle: "\"Your family's first choice connecting relationships with trust.\"",
       rights: "All rights reserved.",
     },

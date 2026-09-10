@@ -39,6 +39,22 @@ export default function HeroSection() {
             dangerouslySetInnerHTML={{ __html: t.hero.title }}
           />
 
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.1 }}
+            className="w-full max-w-lg mb-8 rounded-xl overflow-hidden shadow-2xl border-4 border-[#b58c21]/20 mx-auto md:mx-0"
+          >
+            <Image
+              src="/images/banner.jpg"
+              alt="Akshayam Matrimony Website Launch"
+              width={800}
+              height={1200}
+              className="w-full h-auto object-cover"
+              priority
+            />
+          </motion.div>
+
           <motion.p
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}

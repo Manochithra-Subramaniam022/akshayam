@@ -9,7 +9,7 @@ const notoSansTamil = Noto_Sans_Tamil({
 });
 
 export const metadata: Metadata = {
-  title: "அக்‌ஷயம் கொங்கு திருமணத் தகவல் மையம்",
+  title: "அக்‌ஷயம் திருமணத் தகவல் மையம்",
   description: "உங்கள் இல்லத்தின் இனிய உறவுக்கு நம்பிக்கையான துணை. சிறந்த வாழ்க்கைத்துணையை இணைத்து வருகிறோம்.",
 };
 
